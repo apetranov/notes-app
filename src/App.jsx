@@ -24,7 +24,7 @@ function App() {
     const notesCopy = [...notes];
     notesCopy.push(newNote);
     setNotes(notesCopy);
-    console.log(notes);
+    
     setTitle("");
     setContent("");
   }
